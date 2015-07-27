@@ -17,9 +17,7 @@ Our (#software name) will enable the influenza research community to assemble th
 
 # Keywords
 
-# Keywords
 <!-- Note: There can be up to 10 keywords. -->
-
 influenza, cloning, primer design, gibson assembly, CPEC assembly, reverse genetics, 
 
 
