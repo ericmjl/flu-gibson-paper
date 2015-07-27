@@ -64,6 +64,7 @@ To demonstrate the use of our software tool in the rescue of whole viruses, we c
 
 # Conclusions
 
+FluGibson is a software tool that has the potential to enhance the influenza research community's capability to clone viruses for downstream applications. As the seamless cloning methods are agnostic to application, FluGibson also has applications beyond the influenza research community.
 
 # Availability
 
