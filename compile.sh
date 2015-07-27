@@ -1,0 +1,1 @@
+mdmerge -o manuscript_final.md manuscript.md
