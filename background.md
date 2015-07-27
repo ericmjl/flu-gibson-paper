@@ -1,2 +1,1 @@
-# Background
-
+Numerous technical progresses in the past decade have enabled the influenza research community to rapidly clone viral gene segments for genetic manipulation and biochemical characterization. The advent 
