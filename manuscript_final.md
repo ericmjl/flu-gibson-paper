@@ -1,5 +1,23 @@
 # Title
 
+## Title
+
+## Authors and Emails
+Author Name|Initials|Email
+--------------------------
+Eric J. Ma|(E.J.M.)|ericmjl@mit.edu
+Islam T.M. Hussein|(I.H.)|ihus@mit.edu
+Christopher Bandoro|(C.B.)|cbandoro@mit.edu
+Wendy Puryear|(W.P.)|wpuryear@mit.edu
+Jonathan A. Runstadler|(J.A.R.)|jrun@mit.edu
+
+## Author Affiliations
+- Department of Biological Engineering: E.J.M., I.H., W.P., J.A.R.
+- Microbiology Program: C.B.
+- Division of Comparative Medicine: J.A.R.
+
+## Corresponding Author
+J.A.R.
 
 # Abstract
 
@@ -31,8 +49,13 @@ The software tool is implemented in the Python programming language. We implemen
 
 Each DNA part represented as a node in a NetworkX (#cite) directed graph, where the directed edges indicate the 5' to 3' directionality of one strand. Primers are designed with 25 n.t. annealing to the DNA part, and 15 n.t. overhang with the upstream and downstream parts for a total length of 40 n.t., and are stored as node attributes. (# The primer total length can be specified.)
 
+A command-line interface (CLI) is provided. Users provide a FASTA formatted file that contains the DNA parts that they wish to amplify and stitch together. The DNA parts, listed top to bottom, are assumed to be ordered clockwise, corresponding to a single strand. The CLI provides the ability for researchers proficient in scripting to automate the production of multiple primer sets. A simple web interface is also provided for point-and-click ease of use, and is located at (#web interface address).
+
 # Results and Discussion
 
+To validate our primer design software, we performed the CPEC assembly method on a set of viral polymerase segments that had previously resisted successful restriction enzyme cloning, into a polymerase expression backbone, for viral assays. The four segments required were the PB2, PB1, PA and NP segments. The PCR reactions protocols were standardized across the reactions. Briefly, (#add PCR protocol + DpnI). Though non-specific banding patterns were observed (#figure), size selection of the correct band through gel purification followed by the CPEC protocol (#add protocol) resulted in successful clones, which were verified by restriction enzyme digest and sequencing (#figure, #table). Functional assays also showed expression of the viral polymerase (#figure).
+
+To demonstrate the use of our software tool in the rescue of whole viruses, we cloned an H3N8 virus from cDNA into reverse genetics plasmids, using a similar protocol. Successful cloning was verified by sequencing, and TCID50 assays showed successful replication (#figure).
 
 # Conclusions
 
