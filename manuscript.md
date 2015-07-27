@@ -1,4 +1,4 @@
-# Title
+# Title Page
 
 <<[title_page.md]
 
