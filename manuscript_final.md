@@ -77,6 +77,11 @@ FluGibson is a software tool that has the potential to enhance the influenza res
 
 # Authors' Contributions
 
+- E.J.M. wrote the software and the paper.
+- I.H. tested the primers in constructing plasmids for the polymerase assay.
+- C.B. tested the primers in constructing plasmids for viral rescue.
+- W.P. tested the primers in constructing plasmids for VLP production.
+- J.A.R. wrote the paper.
 
 # Authors' Information
 
