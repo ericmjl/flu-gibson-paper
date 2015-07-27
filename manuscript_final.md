@@ -29,7 +29,9 @@ Numerous technical progresses in the past decade have enabled the influenza rese
 
 # Implementation
 
-The software tool is implemented in the Python programming language. 
+The software tool is implemented in the Python programming language. We implemented a graph-based algorithm for primer design, based on the design principles for the Gibson assembly method (#cite). We assume that each DNA part of the circular viral segment plasmid that need to be assembled together are ordered in a FASTA file in clockwise order.
+
+Each DNA part represented as a node in a NetworkX (#cite) directed graph, where the directed edges indicate the 5' to 3' directionality of one strand. Primers are designed with 25 n.t. annealing to the DNA part, and 15 n.t. overhang with the upstream and downstream parts for a total length of 40 n.t., and are stored as node attributes. (# The primer total length can be specified.)
 
 # Results and Discussion
 
