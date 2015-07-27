@@ -94,6 +94,7 @@ Documentation, along with examples, is available at (#url) (#todo).
 
 # Acknowledgments
 
+The authors would like to acknowledge funding from the NIH/NIAID CEIRS Program (Contract no.: HHSN272014000008C).
 
 # Endnotes
 
