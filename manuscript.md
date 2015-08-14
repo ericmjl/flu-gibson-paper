@@ -10,9 +10,9 @@
 
 <<[keywords.md]
 
-# Background
+# Introduction
 
-<<[background.md]
+<<[introduction.md]
 
 # Implementation
 
